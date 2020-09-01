@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./Header";
 import {getTeams} from "./api.js";
-import {teams} from "./Logos.js";
+
 import TeamLogos from "./TeamLogos.js";
 import {
   BrowserRouter as Router,
@@ -35,7 +35,7 @@ class App extends React.Component {
   
  
   render() {
-    const{currentTeam} = this.state;
+  
     console.log(this.state.allTeams);
     return (
       <div className="App">

@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
 import {getPlayers} from './api.js';
-import TeamPositions from './TeamPositions.js';
-import {groupBy} from 'lodash';
+
+
 import  PlayerStats from './PlayerStats.js';
 import {getStats} from "./api.js";
 import {pickBy} from 'lodash';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+
   Link
 } from "react-router-dom";
 

@@ -1,4 +1,4 @@
-import React from "react"
+
 import './App.css';
 import Ari from './pics/ari.png';
 import Atl from './pics/atl.png';
